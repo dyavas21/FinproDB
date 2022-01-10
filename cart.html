@@ -27,7 +27,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style3.css" rel="stylesheet">
+  <link href="assets/css/chart-style.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
@@ -40,30 +40,37 @@
 
 <body>
 
-    <!-- Header -->
-    <header id="header" class="d-flex align-items-center">
-        <div class="container d-flex align-items-center">
-    
-          <h1 class="logo me-auto"><a href="index.html">Bake n Cake</a></h1>
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-    
-          <nav id="navbar" class="navbar">
-            <ul>
-              <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-              <li><a class="nav-link scrollto" href="#about">About</a></li>
-              <li><a class="nav-link scrollto" href="#services">Services</a></li>
-              <li><a class="nav-link scrollto " href="#portfolio">Catalog</a></li>
-              <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
-              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-              <li><a class="getstarted scrollto" href="login.html">Login</a></li>
-              <li><a class="nav-link scrollto active" href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-          </nav><!-- .navbar -->
-    
-        </div>
-      </header><!-- End Header -->
+     <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">Bake n Cake</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Catalog</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="login.html">Login</a></li>
+          <!-- <li><a class="nav-link scrollto " href="cart.html"><i class="fas fa-shopping-cart"></i></a></li> -->
+          <li>
+            <a class="nav-link scrollto " href="cart.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg>
+          </a>
+        </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
   
 <!--Cart Section-->
 <section class="mt-5">
@@ -84,10 +91,10 @@
                         <td>
                             <div class="main">
                                 <div class="d-flex">
-                 <!--W=145 H=98--> <img src="images/cart-1.jpg"alt="">
+                 <!--W=145 H=98--> <img src="assets/img/portfolio/nastar1.jpg"alt="">
                                 </div>
                                 <div class="des">
-                                    <p>lorem ipsum</p>
+                                    <p>Nastar</p>
                                 </div>
                             </div>
                         </td>
@@ -111,10 +118,10 @@
                         <td>
                             <div class="main">
                                 <div class="d-flex">
-                 <!--W=145 H=98--> <img src="images/cart-1.jpg"alt="">
+                 <!--W=145 H=98--> <img src="assets/img/portfolio/brownies1.jpg"alt="">
                                 </div>
                                 <div class="des">
-                                    <p>lorem ipsum</p>
+                                    <p>Brownies</p>
                                 </div>
                             </div>
                         </td>
@@ -138,10 +145,172 @@
                         <td>
                             <div class="main">
                                 <div class="d-flex">
-                 <!--W=145 H=98--> <img src="images/cart-1.jpg"alt="">
+                 <!--W=145 H=98--> <img src="assets/img/portfolio/bolu_gulung1.jpg"alt="">
                                 </div>
                                 <div class="des">
-                                    <p>lorem ipsum</p>
+                                    <p>Cake Roll</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <h6>$20.00</h6>
+                        </td>
+                        <td>
+                            <div class="counter">
+                                <i class="fas fa-angle-down"></i>
+                                <input class="input-number"type="text"
+                                value="1"min="0"max="10">
+                                <i class="fas fa-angle-up"></i>
+                            </div>
+                        </td>
+                        <td>
+                            <h6>$20.00</h6>
+                        </td>
+                    </tr>
+                    <!----->
+                    <tr>
+                        <td>
+                            <div class="main">
+                                <div class="d-flex">
+                 <!--W=145 H=98--> <img src="assets/img/portfolio/cookies1.jpg"alt="">
+                                </div>
+                                <div class="des">
+                                    <p>Cookies</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <h6>$20.00</h6>
+                        </td>
+                        <td>
+                            <div class="counter">
+                                <i class="fas fa-angle-down"></i>
+                                <input class="input-number"type="text"
+                                value="1"min="0"max="10">
+                                <i class="fas fa-angle-up"></i>
+                            </div>
+                        </td>
+                        <td>
+                            <h6>$20.00</h6>
+                        </td>
+                    </tr>
+                    <!----->
+                    <tr>
+                        <td>
+                            <div class="main">
+                                <div class="d-flex">
+                 <!--W=145 H=98--> <img src="assets/img/portfolio/pie_buah1.jpg"alt="">
+                                </div>
+                                <div class="des">
+                                    <p>Fruit Pie</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <h6>$20.00</h6>
+                        </td>
+                        <td>
+                            <div class="counter">
+                                <i class="fas fa-angle-down"></i>
+                                <input class="input-number"type="text"
+                                value="1"min="0"max="10">
+                                <i class="fas fa-angle-up"></i>
+                            </div>
+                        </td>
+                        <td>
+                            <h6>$20.00</h6>
+                        </td>
+                    </tr>
+                    <!----->
+                    <tr>
+                        <td>
+                            <div class="main">
+                                <div class="d-flex">
+                 <!--W=145 H=98--> <img src="assets/img/portfolio/susu1.jpg"alt="">
+                                </div>
+                                <div class="des">
+                                    <p>Fresh Milk</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <h6>$20.00</h6>
+                        </td>
+                        <td>
+                            <div class="counter">
+                                <i class="fas fa-angle-down"></i>
+                                <input class="input-number"type="text"
+                                value="1"min="0"max="10">
+                                <i class="fas fa-angle-up"></i>
+                            </div>
+                        </td>
+                        <td>
+                            <h6>$20.00</h6>
+                        </td>
+                    </tr>
+                    <!----->
+                    <tr>
+                        <td>
+                            <div class="main">
+                                <div class="d-flex">
+                 <!--W=145 H=98--> <img src="assets/img/portfolio/coffee1.jpg"alt="">
+                                </div>
+                                <div class="des">
+                                    <p>Coffee</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <h6>$20.00</h6>
+                        </td>
+                        <td>
+                            <div class="counter">
+                                <i class="fas fa-angle-down"></i>
+                                <input class="input-number"type="text"
+                                value="1"min="0"max="10">
+                                <i class="fas fa-angle-up"></i>
+                            </div>
+                        </td>
+                        <td>
+                            <h6>$20.00</h6>
+                        </td>
+                    </tr>
+                    <!----->
+                    <tr>
+                        <td>
+                            <div class="main">
+                                <div class="d-flex">
+                 <!--W=145 H=98--> <img src="assets/img/portfolio/juice1.jpg"alt="">
+                                </div>
+                                <div class="des">
+                                    <p>juice</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <h6>$20.00</h6>
+                        </td>
+                        <td>
+                            <div class="counter">
+                                <i class="fas fa-angle-down"></i>
+                                <input class="input-number"type="text"
+                                value="1"min="0"max="10">
+                                <i class="fas fa-angle-up"></i>
+                            </div>
+                        </td>
+                        <td>
+                            <h6>$20.00</h6>
+                        </td>
+                    </tr>
+                    <!----->
+                    <tr>
+                        <td>
+                            <div class="main">
+                                <div class="d-flex">
+                 <!--W=145 H=98--> <img src="assets/img/portfolio/thai1.png"alt="">
+                                </div>
+                                <div class="des">
+                                    <p>Thai/Milk Tea</p>
                                 </div>
                             </div>
                         </td>
@@ -190,10 +359,30 @@
     
 
   
-
-
-
-
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Bake n Cake</h3>
+      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Bake n Cake</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/green-free-one-page-bootstrap-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

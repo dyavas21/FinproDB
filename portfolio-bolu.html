@@ -37,7 +37,7 @@
 
 <body>
 
-  <!-- Header -->
+       <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center">
 
@@ -47,14 +47,21 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Catalog</a></li>
           <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="getstarted scrollto" href="login.html">Login</a></li>
-          <li><a class="nav-link scrollto active" href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+          <!-- <li><a class="nav-link scrollto " href="cart.html"><i class="fas fa-shopping-cart"></i></a></li> -->
+          <li>
+            <a class="nav-link scrollto " href="cart.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg>
+          </a>
+        </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -113,7 +120,9 @@
                 <li><strong>Category</strong>: Cake</li>
                 <li><strong>Expiry date</strong>: 01 March, 2023</li> 
               </ul>
-              <div class="detail-button"><button type="submit" class ="detail-button">Buy</button></div>
+              <div class="detail-button">
+                <button type="submit" class ="detail-button"><a class="button-buy" href="cart.html">Buy</a></button>
+              </div>
             </div>
             <div class="portfolio-description">
               <h2>This is an example of portfolio detail</h2>

@@ -15,11 +15,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #F55500;
+  /* color: #F55500; */
 }
 
 a:hover {
-  color: #F55500;
+  /* color: #F55500; */
   text-decoration: none;
 }
 
@@ -1150,6 +1150,9 @@ section {
   background: #fbfbfb;
   min-height: 40px;
 }
+.breadcrumbs a {
+  color: #444444;
+}
 @media (max-width: 992px) {
   .breadcrumbs {
     margin-top: 66px;
@@ -1256,3 +1259,15 @@ section {
 .detail-button  button[type=submit]:hover {
   background: #FF8F53;
 }
+
+.button-buy {
+  color: white;
+}
+
+.button-buy:hover {
+  color: white;
+}
+ /* .button-buy:hover, .button-buy:focus:hover {
+  background: #F55500;
+  color: #fff;
+} */
